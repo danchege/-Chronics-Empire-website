@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #001f3f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #0074D9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    margin: 10px;
+}
+
+.category img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.category img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #0074D9;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00509e;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #001f3f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

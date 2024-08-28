@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRONICS EMPIRE - Second-Hand Items Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to CHRONICS EMPIRE</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#categories">Categories</a>
+            <a href="#sell">Sell to Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About CHRONICS EMPIRE</h2>
+        <p>We buy and sell high-quality second-hand electronics, cars, furniture, appliances, and more.</p>
+    </section>
+
+    <section id="categories">
+        <h2>Items for Sale</h2>
+        <div class="category-list">
+            <div class="category">
+                <h3>Electronics</h3>
+                <img src="electronics.jpg" alt="Electronics">
+            </div>
+            <div class="category">
+                <h3>Cars</h3>
+                <img src="cars.jpg" alt="Cars">
+            </div>
+            <div class="category">
+                <h3>Furniture</h3>
+                <img src="furniture.jpg" alt="Furniture">
+            </div>
+            <div class="category">
+                <h3>Appliances</h3>
+                <img src="appliances.jpg" alt="Appliances">
+            </div>
+        </div>
+    </section>
+
+    <section id="sell">
+        <h2>Sell Your Items to CHRONICS EMPIRE</h2>
+        <form id="sellForm">
+            <label for="itemName">Item Name:</label>
+            <input type="text" id="itemName" name="itemName" required>
+            
+            <label for="itemDescription">Description:</label>
+            <textarea id="itemDescription" name="itemDescription" required></textarea>
+            
+            <label for="itemImages">Upload Images:</label>
+            <input type="file" id="itemImages" name="itemImages" accept="image/*" multiple required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact CHRONICS EMPIRE</h2>
+        <p>Email: info@chronicsempire.com</p>
+        <p>Location: 1234 Main St, City, Country</p>
+        <p>Follow us on social media:</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CHRONICS EMPIRE. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
